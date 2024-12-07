@@ -1,0 +1,56 @@
+/* General container styling */
+.indicesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 10px 0;
+    max-width: 100vw;
+  }
+  
+  .indexCard {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid  #00e7ff;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #092e33;
+    
+  }
+  
+  .indexCard h4 {
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .indexCard p {
+    margin: 5px 0;
+    color: #ffffff;
+  }
+  
+  .percentChange.positive {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .percentChange.negative {
+    color: red;
+  }
+  .loader-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+    margin-top: 30px;
+  }
+  
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  

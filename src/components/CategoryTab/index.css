@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+  }
+  
+  .stocks-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff !important;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .category-button {
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: none;
+    transition: all 0.3s ease;
+  }
+  
+  .category-button:hover {
+    color: #00e7ff;
+    font-weight: bold;
+  }
+  .loader-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -75px;
+  }
+  
+  .category-button.active {
+    color: white;
+    border-bottom: solid;
+    border-bottom-color: #00e7ff;
+    border-bottom-width:3px ;
+  }
+  
+  .stocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stock-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .stock-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stock-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .stock-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* General container styling */
+.container {
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headers */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.topStocks h2,
+.categories h2 {
+  margin-top: 20px;
+  color: #555;
+}
+
+.categories h3 {
+  margin-top: 15px;
+  color: #777;
+}
+
+/* Table styling */
+.table {
+  width: 450px;
+  border-collapse: collapse;
+  border: 2px solid #00e7ff;
+  margin-left: -50px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.tableCell {
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+/* Positive and negative value styling */
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
